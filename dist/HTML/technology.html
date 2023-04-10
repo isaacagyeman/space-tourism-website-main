@@ -10,23 +10,96 @@
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <header>
+    <div>
+      <img src="/assets/shared/logo.svg" alt="space tourism logo"/>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#"><span>00</span>HOME</a></li>
+        <li><a href="#"><span>01</span>DESTINATION</a></li>
+        <li><a href="#"><span>02</span>CREW</a></li>
+        <li><a href="#"><span>03</span>TECHNOLOGY</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  03 Space launch 101
+  <main>
+    <h2><span>03</span>SPACE LAUNCH 101</h2>
+    <!-- This is the section where the page indicators are -->
+    <section class="Indicators">
+      <div class="pageindic">
+        1
+      </div>
 
-  1
-  2
-  3
+      <div class="pageindic">
+        2
+      </div>
 
-  The terminology...
-  Launch vehicle
+      <div class="pageindic">
+        3
+      </div>
+    </section>
 
-  A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-  payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-  WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-  it's quite an awe-inspiring sight on the launch pad!
+    <!-- This is the section where the info is displayed -->
+    <section>
+      <!-- The Launch Vehicle -->
+      <article>
+        <header>
+          <h6>THE TERMINOLOGY</h6>
+          <p>LAUNCH VEHICLE</p>
+        </header>
+        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+          it's quite an awe-inspiring sight on the launch pad!</p>
+      </article>
+
+      <!-- The Spaceport -->
+
+      <article>
+        <header>
+          <h6>THE TERMINOLOGY</h6>
+          <p>SPACEPORT</p>
+        </header>
+        <p>A spaceport or cosmodrome is a site for launching(or receiving)spacecraft,
+          by analogy to the seaport for ships or airport for aircraft. Based in the famous cape
+          Canaveral, our spaceport is ideally situated to take advantage of the Earth's rotation for launch.</p>
+      </article>
+
+      <!-- The Space Capsule -->
+      <article>
+        <header>
+          <h6>THE TERMINOLOGY</h6>
+          <p>SPACE CAPSULE</p>
+        </header>
+        <p>A space is an often-crewed spacecraft that uses a blunt-body reentry
+           capsule to enter the Earth's atmosphere without wings. Our capsule is 
+          where you'll spend your time during the flight. It includes a space gym,
+          cinema, and plenty other activities to keep you entertained.
+          </p>
+      </article>
+    </section>
+    <!-- This is the pictures slide section -->
+
+    <section>
+      <picture>
+        <source srcset="assets/technology/image-luanch-vehicle-portrait.jpg" type="image/jpg"/>
+        <img src="/assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle"/>
+      </picture>
+
+      <picture>
+        <source srcset="assets/technology/image-spaceport-portrait.jpg" type="image/jpg"/>
+        <img src="/assets/technology/image-spaceport-landscape.jpg" alt="launch vehicle"/>
+      </picture>
+
+      <picture>
+        <source srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpg"/>
+        <img src="/assets/technology/image-space-capsule-landscape.jpg" alt="launch vehicle"/>
+      </picture>
+    </section>
+
+  </main>
+
 </body>
 </html>
