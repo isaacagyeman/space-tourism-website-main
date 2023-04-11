@@ -3,12 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+
+    /* This is the colors used for the design of the pages */
+    --blueblack: hsl(230,35%,7%);
+    --grayishBlue: hsl(231,77%,90%);
+    --white: hsl(0,0%,100%);
+
+    --navbackground:rgb(255,255,255,15%);
+    --grayishBlue2: rgb(208,214,249);
+
+    /* This is the typography used for the design of the texts */
+    --heading1: 
+
+}
+
 
 body{
     background-image: url('/assets/home/background-home-desktop.jpg');
 }
 .navBar{
-/* border: solid; */
 margin-top: 1.5em;
 display: flex;
 justify-content: space-between;
@@ -19,11 +33,11 @@ padding-top: 1.5em;
     margin-left: .8em;
 }
 nav{
-    border: solid chartreuse;
     width: 50%;
     display: flex;
     padding-left: 2em;
     align-items: center;
+    background: var(--navbackground);
 }
 nav li{
     list-style: none;
@@ -34,30 +48,45 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: var(--grayishBlue2);
+}
+nav span{
+    color: var(--white);
+    margin-left: .6em;
+    padding-right: .6em;
+    font-weight: bolder;
 }
 
 
 
 main{
     padding-top: 5em;
-    /* margin-top: 1.5em; */
     display: flex;
     justify-content: space-around;
 }
 
 .leftSide{
-    /* border: solid; */
     width: 50%;
-    margin-top: 11.5em;
+}
+h5 span{
+    color: white;
+    display: block;
+    margin-top: 2.5em;
+}
+#spaceInfo{
+    border: solid;
+    margin-top: 2.5em;
 }
 
 .rightSide{
-    /* border: solid; */
     width: fit-content;
     padding: 5.5em 4.5em;
     background: white;
     border-radius: 50%;
     margin-top: 12.8em;
-    /* display: none; */
+}
+#btnExplore{
+    text-decoration: none;
+    color: var(--blueblack);
+
 }
