@@ -5,36 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/dist/CSS/home.css"/>
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
 
-  <header>
+  <header class="navBar">
     <div>
-      <img src="/assets/shared/logo.svg" alt="space tourism logo"  class="logo"/>
+      <img src="/assets/shared/logo.svg" alt="space tourism logo" class="logo"/>
     </div>
+    <!-- <hr> -->
     <nav>
       <ul>
-        <li><a><span>00</span>Home</a></li>
-        <li><a><span>01</span>Destination</a></li>
-        <li><a><span>02</span>Crew</a></li>
-        <li><a><span>03</span>Technology</a></li>
+        <li><a href="#"><span>00</span>HOME</a></li>
+        <li><a href="#"><span>01</span>DESTINATION</a></li>
+        <li><a href="#"><span>02</span>CREW</a></li>
+        <li><a href="#"><span>03</span>TECHNOLOGY</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="mainContent">
 
-    <div class="rightSide">
-      <h1>SO, YOU WANT TO TRAVEL TO <span>SPACE</span> </h1>
+    <div class="leftSide">
+      <h5>SO, YOU WANT TO TRAVEL TO <span>SPACE</span> </h5>
       <p> Let's face it; if you want to go to space, you might as well genuinely
         go to outer space and not hover kind of on the edge of it.
         Well sit back, and relax because we will give you truly a out of this world experience!</p>
     </div>
 
-    <div>
-      <a>Explore</a>
+    <div class="rightSide">
+      <a href="#" id="btnExplore">Explore</a>
     </div>
   </main>
 
