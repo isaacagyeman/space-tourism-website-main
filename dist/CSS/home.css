@@ -51,7 +51,7 @@ padding-top: 1.5em;
 hr{
     position: absolute;
     left: 12%;
-    right: 47.6%;
+    right: 50.6%;
     top: 14.5%;
 }
 nav{
@@ -87,6 +87,7 @@ main{
 
 .leftSide{
     width: 50%;
+    margin-top: 1.5em;
 }
 h5 span{
     color: white;
@@ -96,11 +97,17 @@ h5 span{
     margin-top: .1em;
 }
 #spaceInfo{
-    border: solid;
-    /* margin-top: 3.5em; */
+    /* border: solid; */
+    width: 68%;
+    font-size: 19.5px;
+    margin-top: 1em;
 }
 #spaceInfo p, h5{
     color: var(--grayishBlue);
+}
+h5{
+    font-size: var(--heading5font);
+    letter-spacing: var(--lnsp5);
 }
 
 .rightSide{
