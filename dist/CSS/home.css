@@ -14,12 +14,28 @@
     --grayishBlue2: rgb(208,214,249);
 
     /* This is the typography used for the design of the texts */
-    --heading1: 
+    /*************** 
+    font sizes
+    ***************/
+    --headingfont1: 150px;
+    --heading2font: 100px;
+    --heading3font: 56px;
+    --heading4font: 32px;
+    --heading5font: 28px;
+    --subheading1: 28px;
+    --subheading2: 14px;
+    --navText: 16px;
+
+    /*************
+    character spacing
+    **************/
+    --lnsp5: 4.75px;
+    --lnsbh: 2.35px;
+    --lnNav: 2.7px;
 
 }
 
-
-body{
+.homeBody{
     background-image: url('/assets/home/background-home-desktop.jpg');
 }
 .navBar{
@@ -28,12 +44,18 @@ display: flex;
 justify-content: space-between;
 padding-top: 1.5em;
 }
-.navBar div{
+.logo{
     padding: 1.2em;
     margin-left: .8em;
 }
+hr{
+    position: absolute;
+    left: 12%;
+    right: 47.6%;
+    top: 14.5%;
+}
 nav{
-    width: 50%;
+    width: 52%;
     display: flex;
     padding-left: 2em;
     align-items: center;
@@ -57,8 +79,6 @@ nav span{
     font-weight: bolder;
 }
 
-
-
 main{
     padding-top: 5em;
     display: flex;
@@ -71,11 +91,16 @@ main{
 h5 span{
     color: white;
     display: block;
-    margin-top: 2.5em;
+    width: fit-content;
+    font-size: 150px;
+    margin-top: .1em;
 }
 #spaceInfo{
     border: solid;
-    margin-top: 2.5em;
+    /* margin-top: 3.5em; */
+}
+#spaceInfo p, h5{
+    color: var(--grayishBlue);
 }
 
 .rightSide{
