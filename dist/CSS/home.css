@@ -38,27 +38,30 @@
 Home
 *****************/
 .homeBody{
-    background-image: url('/assets/home/background-home-desktop.jpg');
+background-image: url('/assets/home/background-home-desktop.jpg');
 }
+
 /**************** 
  Destination
 *****************/
 .destination{
-    background-image: url('/assets/destination/background-destination-desktop.jpg');
+background-image: url('/assets/destination/background-destination-desktop.jpg');
 }
+
 /**************
 Crew
 ***************/
 .crewBody{
-    background-image: url('/assets/crew/background-crew-desktop.jpg');
+background-image: url('/assets/crew/background-crew-desktop.jpg');
 }
 
 /***********
 Technology 
 ************/
 .techBody{
-    background-image: url('/assets/technology/background-technology-desktop.jpg');
+background-image: url('/assets/technology/background-technology-desktop.jpg');
 }
+
 .navBar{
 margin-top: 1.5em;
 display: flex;
@@ -66,14 +69,14 @@ justify-content: space-between;
 padding-top: 1.5em;
 }
 .logo{
-    padding: 1.2em;
-    margin-left: .8em;
+padding: 1.2em;
+margin-left: .8em;
 }
 hr{
-    position: absolute;
-    left: 12%;
-    right: 50.6%;
-    top: 14.5%;
+position: absolute;
+left: 12%;
+right: 50.6%;
+top: 14.5%;
 }
 nav{
     width: 52%;

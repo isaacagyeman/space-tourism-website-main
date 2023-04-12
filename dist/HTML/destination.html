@@ -26,10 +26,9 @@
   </header>
 
   <main class="mainDest">
-
-    <h1>PICK YOUR DESTINATION</h1>
     <!-- This is the list of pictures that will be shown if the tab is clicked -->
-    <div class="pictureSide">
+    <section class="pictureSide">
+      <h1>PICK YOUR DESTINATION</h1>
       <picture>
         <source srcset="/assets/destination/image-moon.webp" type="image/webp">
         <img src="/assets/destination/image-moon.png" id="moonPic" alt="the moon"/>
@@ -49,14 +48,17 @@
         <source srcset="/assets/destination/image-titan.webp" type="image/webp">
         <img src="/assets/destination/image-titan.png" id="titanPic" alt="moon titan"/>
       </picture>
-    </div>
-    <!-- Here is the tablist to change the pictures for viewing -->
-    <div class="tablist">
+    </section>
+
+    <!-- This is the side of destination inforamtion side -->
+    <section class="infoSide">
+
+      <!-- Here is the tablist to change the pictures for viewing -->
+      <div class="tablist">
       <a href="#">MOON</a>
       <a href="#">MARS</a>
       <a href="#">EUROPA</a>
       <a href="#">TITAN</a>
-
     </div>
     <!-- Here is the article for each of the moons clicked from the tablist -->
 
@@ -79,10 +81,10 @@
           <h3>EST. TRAVEL TIME</h3>
           <p>3 DAYS</p>
         </div>
-
+        
       </div>
     </article>
-
+    
     <!-- MARS -->
     <article>
       <h2>MARS</h2>
@@ -97,12 +99,12 @@
           <h3>AVG. DISTANCE</h3>
           <p>255 MIL. KM</p>
         </div>
-
+        
         <div>
           <h3>EST. TRAVEL TIME</h3>
           <p>9 MONTHS</p>
         </div>
-
+        
       </div>
     </article>
 
@@ -111,13 +113,13 @@
       <h2>EUROPA</h2>
 
       <p>The smallest of the four Galilean moons orbiting Jupiter,
-      Europa is a winter lover's dream. With an icy surface,
-      it's perfect for a bit of ice skating, curling, hockey or simple
-      relaxation in your snug wintery cabin.</p>
+        Europa is a winter lover's dream. With an icy surface,
+        it's perfect for a bit of ice skating, curling, hockey or simple
+        relaxation in your snug wintery cabin.</p>
+        
+        <div class="distanceInfo">
 
-      <div class="distanceInfo">
-
-        <div>
+          <div>
           <h3>AVG. DISTANCE</h3>
           <p>628 MIL. KM</p>
         </div>
@@ -126,7 +128,7 @@
           <h3>EST. TRAVEL TIME</h3>
           <p>3 YEARS</p>
         </div>
-
+        
       </div>
     </article>
 
@@ -137,22 +139,22 @@
       <p>The only moon known to have a dense atmosphere other than the Earth,
         Titan is a home away from home(just a few hundred degress colder!).As a bonus,
         you get striking views of the rings of Saturn</p>
-
-      <div class="distanceInfo">
-
+        
+        <div class="distanceInfo">
+          
         <div>
           <h3>AVG. DISTANCE</h3>
           <p>1.6 BIL. KM</p>
         </div>
-
+        
         <div>
           <h3>EST. TRAVEL TIME</h3>
           <p>7 YEARS</p>
         </div>
-
+        
       </div>
     </article>
-
+  </section>
     
   </main>
 
