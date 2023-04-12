@@ -34,9 +34,30 @@
     --lnNav: 2.7px;
 
 }
-
+/****************
+Home
+*****************/
 .homeBody{
     background-image: url('/assets/home/background-home-desktop.jpg');
+}
+/**************** 
+ Destination
+*****************/
+.destination{
+    background-image: url('/assets/destination/background-destination-desktop.jpg');
+}
+/**************
+Crew
+***************/
+.crewBody{
+    background-image: url('/assets/crew/background-crew-desktop.jpg');
+}
+
+/***********
+Technology 
+************/
+.techBody{
+    background-image: url('/assets/technology/background-technology-desktop.jpg');
 }
 .navBar{
 margin-top: 1.5em;
@@ -79,7 +100,7 @@ nav span{
     font-weight: bolder;
 }
 
-main{
+.mainHome{
     padding-top: 5em;
     display: flex;
     justify-content: space-around;
@@ -122,3 +143,6 @@ h5{
     color: var(--blueblack);
 
 }
+
+
+
