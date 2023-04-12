@@ -144,7 +144,54 @@ h5{
 #btnExplore{
     text-decoration: none;
     color: var(--blueblack);
+}
 
+/******************
+This is the styling of the destination page here 
+*******************/
+
+.mainDest{
+    display: flex;
+    /* border: solid; */
+    padding: 3.5em;
+}
+.pictureSide{
+    /* display: none; */
+    border: solid;
+    width: 80%;
+    padding: 2em;
+}
+.infoSide{
+    /* border: solid; */
+    padding: 5em;
+}
+#marsImg, #europaImg, #titanImg{
+    display: none;
+    /* margin-top: 2em; */
+}
+
+.tablist a{
+    text-decoration: none;
+    margin-right: 1.5em;
+    /* border: solid; */
+    padding-bottom: .3em;
+    color: var(--grayishBlue2);
+}
+.distanceInfo{
+    /* border: solid; */
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 2.5em;
+}
+.destination-info{
+    /* border: solid chocolate; */
+    padding: 2em 0em 2em 0em;
+}
+.destDesc{
+    border: solid;
+    margin-top: 2.5em;
 }
 
 
