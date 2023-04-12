@@ -153,21 +153,36 @@ This is the styling of the destination page here
 .mainDest{
     display: flex;
     /* border: solid; */
-    padding: 3.5em;
+    padding-left: 2.5em;
+    padding-right: 2em;
+    align-items: center;
+    /* margin: 1.5em; */
+    /* padding: 3.5em; */
+}
+#destHead{
+    text-align: center;
 }
 .pictureSide{
     /* display: none; */
-    border: solid;
+    /* border: solid; */
     width: 80%;
-    padding: 2em;
+    /* padding: .5em; */
 }
 .infoSide{
     /* border: solid; */
     padding: 5em;
 }
-#marsImg, #europaImg, #titanImg{
+/* #marsImg, #europaImg, #titanImg{
     display: none;
-    /* margin-top: 2em; */
+} */
+.spacePlanet{
+    display: none;
+}
+#moonImg{
+    display: block;
+    padding-top: 1.7em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
 }
 
 .tablist a{
@@ -183,15 +198,26 @@ This is the styling of the destination page here
     padding: 1em;
     justify-content: space-between;
     width: 70%;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
 }
 .destination-info{
     /* border: solid chocolate; */
-    padding: 2em 0em 2em 0em;
+    /* padding: 2em 0em 2em 0em; */
+    padding: .5em;
 }
 .destDesc{
     border: solid;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
+}
+
+#marsTab, #europaTab,#titanTab{
+    display: none;
+}
+.destName{
+    font-size: var(--heading2font);
+}
+img, picture{
+    display: block;
 }
 
 
