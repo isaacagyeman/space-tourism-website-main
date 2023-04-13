@@ -62,6 +62,9 @@ Technology
 background-image: url('/assets/technology/background-technology-desktop.jpg');
 }
 
+/**************************************
+This is the style of the homepage 
+***************************************/
 .navBar{
 margin-top: 1.5em;
 display: flex;
@@ -146,9 +149,9 @@ h5{
     color: var(--blueblack);
 }
 
-/******************
+/***********************************************
 This is the styling of the destination page here 
-*******************/
+************************************************/
 
 .mainDest{
     display: flex;
@@ -222,3 +225,71 @@ img, picture{
 
 
 
+/********************************
+This is the style of the crew page 
+*********************************/
+
+.rightContent{
+    border: solid;
+}
+.rightContent picture{
+    width: fit-content;
+    border: solid;
+}
+
+.pageIndicators{
+/* border: solid; */
+padding-left: 1.3em;
+padding-top: 1.3em;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    background: hsl(231,77%,90%);
+    margin-right: 1em;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+/*************************************
+This is the style of the technology page 
+**************************************/
+
+.mainTech{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Indicators{
+    border: solid chartreuse;
+    width: 20%;
+}
+
+.infoCards{
+    /* border: solid chocolate; */
+    width: 30%;
+}
+.techies{
+    width: max-content;
+}
+.techies picture{
+    width: 50%;
+}
+#spaceportImg, #capsuleImg{
+    display: none;
+}
+
+.headText{
+    color: var(--grayishBlue);
+    margin: .5em;
+}
+
+.techName{
+    font-size: var(--heading4font);
+    color: var(--grayishBlue);
+}
+.techInfo{
+    margin-top: 1em;
+    color: var(--grayishBlue);
+}

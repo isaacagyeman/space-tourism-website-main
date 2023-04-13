@@ -25,11 +25,11 @@
     </nav>
   </header>
 
+  <h2><span>03</span>SPACE LAUNCH 101</h2>
   <main class="mainTech">
-    <h2><span>03</span>SPACE LAUNCH 101</h2>
     <!-- This is the section where the page indicators are -->
-    <section class="Indicators">
-      <div class="pageindic">
+    <section class="Indicators">  
+    <div class="pageindic">
         1
       </div>
 
@@ -43,60 +43,66 @@
     </section>
 
     <!-- This is the section where the info is displayed -->
-    <section>
+    <section class="infoCards">
       <!-- The Launch Vehicle -->
       <article>
-        <header>
-          <h6>THE TERMINOLOGY</h6>
-          <p>LAUNCH VEHICLE</p>
+        <header class="infoHeading">
+          <h6 class="headText">THE TERMINOLOGY</h6>
+          <p class="techName" id="vehName">LAUNCH VEHICLE</p>
         </header>
-        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-          it's quite an awe-inspiring sight on the launch pad!</p>
+        <div class="techInfo" id="techInfo1">
+          <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch pad!</p>
+        </div>
       </article>
 
       <!-- The Spaceport -->
 
       <article>
-        <header>
-          <h6>THE TERMINOLOGY</h6>
-          <p>SPACEPORT</p>
+        <header class="infoHeading">
+          <h6 class="headText">THE TERMINOLOGY</h6>
+          <p class="techName" id="spaceportName">SPACEPORT</p>
         </header>
-        <p>A spaceport or cosmodrome is a site for launching(or receiving)spacecraft,
-          by analogy to the seaport for ships or airport for aircraft. Based in the famous cape
-          Canaveral, our spaceport is ideally situated to take advantage of the Earth's rotation for launch.</p>
+        <div class="techInfo" id="techInfo2">
+          <p>A spaceport or cosmodrome is a site for launching(or receiving)spacecraft,
+            by analogy to the seaport for ships or airport for aircraft. Based in the famous cape
+            Canaveral, our spaceport is ideally situated to take advantage of the Earth's rotation for launch.</p>
+        </div>
       </article>
 
       <!-- The Space Capsule -->
       <article>
-        <header>
-          <h6>THE TERMINOLOGY</h6>
-          <p>SPACE CAPSULE</p>
+        <header class="infoHeading">
+          <h6 class="headText">THE TERMINOLOGY</h6>
+          <p class="techName" id="capsuleName">SPACE CAPSULE</p>
         </header>
-        <p>A space is an often-crewed spacecraft that uses a blunt-body reentry
-           capsule to enter the Earth's atmosphere without wings. Our capsule is 
-          where you'll spend your time during the flight. It includes a space gym,
-          cinema, and plenty other activities to keep you entertained.
-          </p>
+        <div class="techInfo" id="techInfo3">
+          <p>A space is an often-crewed spacecraft that uses a blunt-body reentry
+            capsule to enter the Earth's atmosphere without wings. Our capsule is 
+           where you'll spend your time during the flight. It includes a space gym,
+           cinema, and plenty other activities to keep you entertained.
+           </p>
+        </div>
       </article>
     </section>
     <!-- This is the pictures slide section -->
 
-    <section>
-      <picture>
-        <source srcset="assets/technology/image-luanch-vehicle-portrait.jpg" type="image/jpg"/>
+    <section class="techies">
+      <picture class="techSlide" id="launchImg">
+        <source srcset="/assets/technology/image-launch-vehicle-portrait.jpg" type="image/jpg"/>
         <img src="/assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle"/>
       </picture>
 
-      <picture>
-        <source srcset="assets/technology/image-spaceport-portrait.jpg" type="image/jpg"/>
-        <img src="/assets/technology/image-spaceport-landscape.jpg" alt="launch vehicle"/>
+      <picture class="techSlide" id="spaceportImg">
+        <source srcset="/assets/technology/image-spaceport-portrait.jpg" type="image/jpg"/>
+        <img src="/assets/technology/image-spaceport-landscape.jpg" alt="spaceport"/>
       </picture>
 
-      <picture>
-        <source srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpg"/>
-        <img src="/assets/technology/image-space-capsule-landscape.jpg" alt="launch vehicle"/>
+      <picture class="techSlide" id="capsuleImg">
+        <source srcset="/assets/technology/image-space-capsule-portrait.jpg" type="image/jpg"/>
+        <img src="/assets/technology/image-space-capsule-landscape.jpg" alt="space capsule"/>
       </picture>
     </section>
 

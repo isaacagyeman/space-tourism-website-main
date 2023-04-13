@@ -26,11 +26,10 @@
   </header>
 
   <main class="mainCrew">
-    <h1><span>02</span>MEET YOUR CREW</h1>
     <section class="leftContent">
-
+      <h1><span>02</span>MEET YOUR CREW</h1>
       <!-- This is the info for section for the commander -->
-      <article>
+      <article class="crewInfo" id="commanderTab">
         <header>
           <h2>COMMANDER</h2>
           <p>DOUGLAS HURLEY</p>
@@ -41,7 +40,7 @@
       </article>
 
     <!-- This is the info for the section for the mission specialist -->
-      <article>
+      <article class="crewInfo" id="specialistTab">
         <header>
           <h2>MISSION SPECIALIST</h2>
           <p>MARK SHUTTLEWORTH</p>
@@ -52,7 +51,7 @@
       </article>
 
       <!-- This is the info section for the pilot -->
-      <article>
+      <article class="crewInfo" id="pilotTab">
         <header>
           <h2>PILOT</h2>
           <p>VICTOR GLOVER</p>
@@ -64,7 +63,7 @@
       </article>
 
       <!-- This is the info section for the flight engineer  -->
-      <article>
+      <article class="crewInfo" id="flightTab">
         <header>
           <h2>FLITGHT ENGINEER</h2>
           <p>ANOUSHEH ANSARI</p>
@@ -83,22 +82,22 @@
 
     <!-- This is the right side of the page where the pictures of the people-->
     <section class="rightContent">
-      <picture>
-        <source srcset="/assets/crew/image-douglas-hurley.webp" type="image/webp"/>
-        <img src="/assets/crew/image-douglas-hurley.png" alt="douglas hurley"/>
-      </picture>
-
-      <picture>
+    <picture class="Imgslide" id="dougImg">
+      <source srcset="/assets/crew/image-douglas-hurley.png" type="image/webp"/>
+      <img src="/assets/crew/image-douglas-hurley.webp" alt="douglas hurley"/>
+    </picture>
+    
+    <picture class="Imgslide" id="markImg">
         <source srcset="/assets/crew/image-mark-shuttleworth.webp" type="image/webp"/>
         <img src="/assets/crew/image-mark-shuttleworth.png" alt="mark Shuttleworth"/>
       </picture>
 
-      <picture>
-        <source srcset="/assets/crew/image-victor-gloverwebp" type="image/webp"/>
+      <picture class="Imgslide" id="victorImg">
+        <source srcset="/assets/crew/image-victor-glover.webp" type="image/webp"/>
         <img src="/assets/crew/image-victor-glover.png" alt="victor glover"/>
       </picture>
 
-      <picture>
+      <picture class="Imgslide" id="anoushehImg">
         <source srcset="/assets/crew/image-anousheh-ansari.webp" type="image/webp"/>
         <img src="/assets/crew/image-anousheh-ansari.png" alt="anousheh ansari"/>
       </picture>
