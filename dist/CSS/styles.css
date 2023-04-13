@@ -255,20 +255,53 @@ padding-top: 1.3em;
 /*************************************
 This is the style of the technology page 
 **************************************/
-
+#techMainHead{
+   /* text-align: left; */
+   /* justify-content: center; */
+   position: relative;
+   top: 2em;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin-left: 6.5em;
+}
 .mainTech{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.leftreloaded{
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+
+}
 .Indicators{
-    border: solid chartreuse;
-    width: 20%;
+    margin: auto;
+    padding: 1em;
+    /* border: solid; */
+}
+.pageindic{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: none;
+    background: white;
+    /* align-items: center; */
+    display: block;
+    margin-bottom: 1.5em;
+}
+/* .pageindic p{
+    text-align: center;
+} */
+#pageNum{
+    margin-right: .7em;
+
 }
 
 .infoCards{
     /* border: solid chocolate; */
-    width: 30%;
+    width: 60%;
 }
 .techies{
     width: max-content;
@@ -292,4 +325,26 @@ This is the style of the technology page
 .techInfo{
     margin-top: 1em;
     color: var(--grayishBlue);
+}
+
+#techInfo1{
+    /* border: solid mediumseagreen; */
+    width: 75%;
+    line-height: 2em;
+}
+#techInfo2{
+    /* border: solid coral; */
+    width: 92%;
+    line-height: 2em;
+}
+#techInfo3{
+    /* border: solid maroon; */
+    width: 86.7%;
+    line-height: 2em;
+}
+/* #techSlide1{
+    margin-top: 2.3em;
+} */
+#techSlide2,#techSlide3{
+    display: none;
 }
