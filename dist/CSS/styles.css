@@ -66,7 +66,7 @@ background-image: url('/assets/technology/background-technology-desktop.jpg');
 This is the style of the homepage 
 ***************************************/
 .navBar{
-margin-top: 1.5em;
+margin-top: .8em;
 display: flex;
 justify-content: space-between;
 padding-top: 1.5em;
@@ -79,7 +79,7 @@ hr{
 position: absolute;
 left: 12%;
 right: 50.6%;
-top: 14.5%;
+top: 83px;
 }
 nav{
 width: 52%;
@@ -153,29 +153,20 @@ This is the styling of the destination page here
 
 .mainDest{
 display: flex;
-/* border: solid; */
 padding-left: 2.5em;
 padding-right: 2em;
 align-items: center;
-/* margin: 1.5em; */
-/* padding: 3.5em; */
 }
 #destHead{
 text-align: center;
 }
 .pictureSide{
-/* display: none; */
-/* border: solid; */
 width: 80%;
-/* padding: .5em; */
 }
 .infoSide{
-/* border: solid; */
 padding: 5em;
 }
-/* #marsImg, #europaImg, #titanImg{
-    display: none;
-} */
+
 .spacePlanet{
 display: none;
 }
@@ -189,12 +180,10 @@ padding-right: 1.3em;
 .tablist a{
 text-decoration: none;
 margin-right: 1.5em;
-/* border: solid; */
 padding-bottom: .3em;
 color: var(--grayishBlue2);
 }
 .distanceInfo{
-/* border: solid; */
 display: flex;
 padding: 1em;
 justify-content: space-between;
@@ -202,8 +191,6 @@ width: 70%;
 margin-top: 1.5em;
 }
 .destination-info{
-/* border: solid chocolate; */
-/* padding: 2em 0em 2em 0em; */
 padding: .5em;
 }
 .destDesc{
@@ -227,20 +214,23 @@ This is the style of the crew page
 *********************************/
 .mainCrew{
 display: flex;
-align-items: center;
 justify-content: space-evenly;
-/* border: solid cyan; */
 }
 .rightContent{
-/* border: solid maroon; */
-width: 45%;
-/* padding: 2em; */
+width: 50%;
+padding: 2em;
 }
 
 .leftContent{
-/* border: solid chartreuse; */
-width: 45%;
-margin: auto;
+width: 50%;
+}
+.leftContent h1{
+    margin-top: 1.5em;
+    margin-left: 4.3em;
+    color: var(--grayishBlue2);
+}
+.leftContent span{
+    margin-right: .7em;
 }
 .crewTitle{
 font-size: 24px;
@@ -251,33 +241,22 @@ color: var(--grayishBlue2);
 padding-bottom: .5em;
 }
 #crewWork1{
-width: 63%;
-
-}
-#crewWork2{
-width: 65%;
-}
-#crewWork3{
-width: 64%;
-}
-#crewWork4{
-width: 62%;
+line-height: 1.3em;
 }
 #specialistTab,#pilotTab,#flightTab{
 display: none;
 }
 
 .crewInfo{
-margin: 2.5em;
+padding: 6.5em;
 }
 
 #markImg, #victorImg, #anoushehImg{
 display: none;
 }
 .pageIndicators{
-margin-top: 2.5em;
 width: fit-content;
-margin: 2.5em;
+margin-left: 6.5em;
 }
 
 .dot{
@@ -294,8 +273,6 @@ border-radius: 50%;
 This is the style of the technology page 
 **************************************/
 #techMainHead{
-/* text-align: left; */
-/* justify-content: center; */
 position: relative;
 top: 2em;
 right: 0;
@@ -309,7 +286,6 @@ align-items: center;
 justify-content: space-between;
 }
 .leftreloaded{
-/* border: solid magenta; */
 display: flex;
 justify-content: space-between;
 
@@ -317,7 +293,6 @@ justify-content: space-between;
 .Indicators{
 margin: auto;
 padding: 1em;
-/* border: solid; */
 }
 .pageindic{
 height: 60px;
@@ -325,19 +300,15 @@ width: 60px;
 border-radius: 100%;
 border: none;
 background: white;
-/* align-items: center; */
 display: block;
 margin-bottom: 1.5em;
 }
-/* .pageindic p{
-    text-align: center;
-} */
+
 #pageNum{
 margin-right: .7em;
 }
 
 .infoCards{
-/* border: solid chocolate; */
 width: 60%;
 }
 .techies{
@@ -365,23 +336,18 @@ color: var(--grayishBlue);
 }
 
 #techInfo1{
-/* border: solid mediumseagreen; */
 width: 75%;
 line-height: 2em;
 }
 #techInfo2{
-/* border: solid coral; */
 width: 92%;
 line-height: 2em;
 }
 #techInfo3{
-/* border: solid maroon; */
 width: 86.7%;
 line-height: 2em;
 }
-/* #techSlide1{
-    margin-top: 2.3em;
-} */
+
 #techSlide2,#techSlide3{
 display: none;
 }
