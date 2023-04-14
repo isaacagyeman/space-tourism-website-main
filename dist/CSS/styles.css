@@ -82,71 +82,69 @@ right: 50.6%;
 top: 14.5%;
 }
 nav{
-    width: 52%;
-    display: flex;
-    padding-left: 2em;
-    align-items: center;
-    background: var(--navbackground);
+width: 52%;
+display: flex;
+padding-left: 2em;
+align-items: center;
+background: var(--navbackground);
 }
 nav li{
-    list-style: none;
-    display: inline;
-    padding-bottom: 2em;
-    margin-left: 2em;
-
+list-style: none;
+display: inline;
+padding-bottom: 2em;
+margin-left: 2em;
 }
 nav a{
-    text-decoration: none;
-    color: var(--grayishBlue2);
+text-decoration: none;
+color: var(--grayishBlue2);
 }
 nav span{
-    color: var(--white);
-    margin-left: .6em;
-    padding-right: .6em;
-    font-weight: bolder;
+color: var(--white);
+margin-left: .6em;
+padding-right: .6em;
+font-weight: bolder;
 }
 
 .mainHome{
-    padding-top: 5em;
-    display: flex;
-    justify-content: space-around;
+padding-top: 5em;
+display: flex;
+justify-content: space-around;
 }
 
 .leftSide{
-    width: 50%;
-    margin-top: 1.5em;
+width: 50%;
+margin-top: 1.5em;
 }
 h5 span{
-    color: white;
-    display: block;
-    width: fit-content;
-    font-size: 150px;
-    margin-top: .1em;
+color: white;
+display: block;
+width: fit-content;
+font-size: 150px;
+margin-top: .1em;
 }
 #spaceInfo{
-    /* border: solid; */
-    width: 68%;
-    font-size: 19.5px;
-    margin-top: 1em;
+width: 68%;
+font-size: 19.5px;
+margin-top: 1em;
 }
 #spaceInfo p, h5{
-    color: var(--grayishBlue);
+color: var(--grayishBlue);
 }
 h5{
-    font-size: var(--heading5font);
-    letter-spacing: var(--lnsp5);
+font-size: var(--heading5font);
+letter-spacing: var(--lnsp5);
 }
 
 .rightSide{
-    width: fit-content;
-    padding: 5.5em 4.5em;
-    background: white;
-    border-radius: 50%;
-    margin-top: 12.8em;
+width: fit-content;
+padding: 5.5em 4.5em;
+background: white;
+border-radius: 50%;
+margin-top: 12.8em;
 }
 #btnExplore{
-    text-decoration: none;
-    color: var(--blueblack);
+text-decoration: none;
+color: var(--blueblack);
 }
 
 /***********************************************
@@ -154,88 +152,96 @@ This is the styling of the destination page here
 ************************************************/
 
 .mainDest{
-    display: flex;
-    /* border: solid; */
-    padding-left: 2.5em;
-    padding-right: 2em;
-    align-items: center;
-    /* margin: 1.5em; */
-    /* padding: 3.5em; */
+display: flex;
+/* border: solid; */
+padding-left: 2.5em;
+padding-right: 2em;
+align-items: center;
+/* margin: 1.5em; */
+/* padding: 3.5em; */
 }
 #destHead{
-    text-align: center;
+text-align: center;
 }
 .pictureSide{
-    /* display: none; */
-    /* border: solid; */
-    width: 80%;
-    /* padding: .5em; */
+/* display: none; */
+/* border: solid; */
+width: 80%;
+/* padding: .5em; */
 }
 .infoSide{
-    /* border: solid; */
-    padding: 5em;
+/* border: solid; */
+padding: 5em;
 }
 /* #marsImg, #europaImg, #titanImg{
     display: none;
 } */
 .spacePlanet{
-    display: none;
+display: none;
 }
 #moonImg{
-    display: block;
-    padding-top: 1.7em;
-    padding-left: 1.3em;
-    padding-right: 1.3em;
+display: block;
+padding-top: 1.7em;
+padding-left: 1.3em;
+padding-right: 1.3em;
 }
 
 .tablist a{
-    text-decoration: none;
-    margin-right: 1.5em;
-    /* border: solid; */
-    padding-bottom: .3em;
-    color: var(--grayishBlue2);
+text-decoration: none;
+margin-right: 1.5em;
+/* border: solid; */
+padding-bottom: .3em;
+color: var(--grayishBlue2);
 }
 .distanceInfo{
-    /* border: solid; */
-    display: flex;
-    padding: 1em;
-    justify-content: space-between;
-    width: 70%;
-    margin-top: 1.5em;
+/* border: solid; */
+display: flex;
+padding: 1em;
+justify-content: space-between;
+width: 70%;
+margin-top: 1.5em;
 }
 .destination-info{
-    /* border: solid chocolate; */
-    /* padding: 2em 0em 2em 0em; */
-    padding: .5em;
+/* border: solid chocolate; */
+/* padding: 2em 0em 2em 0em; */
+padding: .5em;
 }
 .destDesc{
-    border: solid;
-    margin-top: 1.5em;
+border: solid;
+margin-top: 1.5em;
 }
 
+/* This is hidden styling would later affect all the cards in the javascript */
 #marsTab, #europaTab,#titanTab{
-    display: none;
+display: none;
 }
 .destName{
-    font-size: var(--heading2font);
+font-size: var(--heading2font);
 }
 img, picture{
-    display: block;
+display: block;
 }
-
-
 
 /********************************
 This is the style of the crew page 
 *********************************/
-
+.mainCrew{
+    display: flex;
+}
 .rightContent{
-    border: solid;
-}
-.rightContent picture{
+    border: solid maroon;
     width: fit-content;
-    border: solid;
+    padding: 1em;
 }
+
+.leftContent{
+    border: solid chartreuse;
+}
+
+#markImg, #victorImg, #anoushehImg{
+    display: none;
+}
+
 
 .pageIndicators{
 /* border: solid; */
@@ -258,93 +264,92 @@ This is the style of the technology page
 #techMainHead{
    /* text-align: left; */
    /* justify-content: center; */
-   position: relative;
-   top: 2em;
-   right: 0;
-   left: 0;
-   bottom: 0;
-   margin-left: 6.5em;
+position: relative;
+top: 2em;
+right: 0;
+left: 0;
+bottom: 0;
+margin-left: 6.5em;
 }
 .mainTech{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .leftreloaded{
-    /* border: solid magenta; */
-    display: flex;
-    justify-content: space-between;
+/* border: solid magenta; */
+display: flex;
+justify-content: space-between;
 
 }
 .Indicators{
-    margin: auto;
-    padding: 1em;
-    /* border: solid; */
+margin: auto;
+padding: 1em;
+/* border: solid; */
 }
 .pageindic{
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    border: none;
-    background: white;
-    /* align-items: center; */
-    display: block;
-    margin-bottom: 1.5em;
+height: 60px;
+width: 60px;
+border-radius: 100%;
+border: none;
+background: white;
+/* align-items: center; */
+display: block;
+margin-bottom: 1.5em;
 }
 /* .pageindic p{
     text-align: center;
 } */
 #pageNum{
-    margin-right: .7em;
-
+margin-right: .7em;
 }
 
 .infoCards{
-    /* border: solid chocolate; */
-    width: 60%;
+/* border: solid chocolate; */
+width: 60%;
 }
 .techies{
-    width: max-content;
+width: max-content;
 }
 .techies picture{
-    width: 50%;
+width: 50%;
 }
 #spaceportImg, #capsuleImg{
-    display: none;
+display: none;
 }
 
 .headText{
-    color: var(--grayishBlue);
-    margin: .5em;
+color: var(--grayishBlue);
+margin: .5em;
 }
 
 .techName{
-    font-size: var(--heading4font);
-    color: var(--grayishBlue);
+font-size: var(--heading4font);
+color: var(--grayishBlue);
 }
 .techInfo{
-    margin-top: 1em;
-    color: var(--grayishBlue);
+margin-top: 1em;
+color: var(--grayishBlue);
 }
 
 #techInfo1{
-    /* border: solid mediumseagreen; */
-    width: 75%;
-    line-height: 2em;
+/* border: solid mediumseagreen; */
+width: 75%;
+line-height: 2em;
 }
 #techInfo2{
-    /* border: solid coral; */
-    width: 92%;
-    line-height: 2em;
+/* border: solid coral; */
+width: 92%;
+line-height: 2em;
 }
 #techInfo3{
-    /* border: solid maroon; */
-    width: 86.7%;
-    line-height: 2em;
+/* border: solid maroon; */
+width: 86.7%;
+line-height: 2em;
 }
 /* #techSlide1{
     margin-top: 2.3em;
 } */
 #techSlide2,#techSlide3{
-    display: none;
+display: none;
 }
