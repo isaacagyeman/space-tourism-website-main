@@ -29,7 +29,7 @@
     <section class="leftContent">
       <h1><span>02</span>MEET YOUR CREW</h1>
       <!-- This is the info for section for the commander -->
-      <article class="crewInfo" id="commanderTab">
+      <article class="crewInfo  myslide" id="commanderTab">
         <header class="crewHead">
           <h2 class="crewTitle">COMMANDER</h2>
           <p id="crewName1" class="crewName">DOUGLAS HURLEY</p>
@@ -42,7 +42,7 @@
       </article>
 
     <!-- This is the info for the section for the mission specialist -->
-      <article class="crewInfo" id="specialistTab">
+      <article class="crewInfo  myslide" id="specialistTab">
         <header class="crewHead">
           <h2 class="crewTitle">MISSION SPECIALIST</h2>
           <p id="crewName2" class="crewName">MARK SHUTTLEWORTH</p>
@@ -55,7 +55,7 @@
       </article>
 
       <!-- This is the info section for the pilot -->
-      <article class="crewInfo" id="pilotTab">
+      <article class="crewInfo  myslide" id="pilotTab">
         <header class="crewHead">
           <h2 class="crewTitle">PILOT</h2>
           <p id="crewName3" class="crewName">VICTOR GLOVER</p>
@@ -69,7 +69,7 @@
       </article>
 
       <!-- This is the info section for the flight engineer  -->
-      <article class="crewInfo" id="flightTab">
+      <article class="crewInfo  myslide" id="flightTab">
         <header class="crewHead">
           <h2 class="crewTitle">FLITGHT ENGINEER</h2>
           <p id="crewName4" class="crewName">ANOUSHEH ANSARI</p>
@@ -82,38 +82,38 @@
       </article>
 
       <div class="pageIndicators">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
       </div>
 
     </section>
 
     <!-- This is the right side of the page where the pictures of the people-->
     <section class="rightContent">
-    <picture class="Imgslide" id="dougImg">
+    <picture class="Imgslide  myslide2" id="dougImg">
       <source srcset="/assets/crew/image-douglas-hurley.png" type="image/webp"/>
       <img src="/assets/crew/image-douglas-hurley.webp" alt="douglas hurley"/>
     </picture>
     
-    <picture class="Imgslide" id="markImg">
+    <picture class="Imgslide  myslide2" id="markImg">
         <source srcset="/assets/crew/image-mark-shuttleworth.webp" type="image/webp"/>
         <img src="/assets/crew/image-mark-shuttleworth.png" alt="mark Shuttleworth"/>
       </picture>
 
-      <picture class="Imgslide" id="victorImg">
+      <picture class="Imgslide  myslide2" id="victorImg">
         <source srcset="/assets/crew/image-victor-glover.webp" type="image/webp"/>
         <img src="/assets/crew/image-victor-glover.png" alt="victor glover"/>
       </picture>
 
-      <picture class="Imgslide" id="anoushehImg">
+      <picture class="Imgslide  myslide2" id="anoushehImg">
         <source srcset="/assets/crew/image-anousheh-ansari.webp" type="image/webp"/>
         <img src="/assets/crew/image-anousheh-ansari.png" alt="anousheh ansari"/>
       </picture>
     </section>
     
   </main>
-
+  <script src="/dist/JS/slide.js"></script>
 </body>
 </html>

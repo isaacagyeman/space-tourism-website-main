@@ -32,15 +32,15 @@
       
     <section class="Indicators">  
 
-    <button class="pageindic">
+    <button class="pageindic" onclick="currentSlide(1)">
       1
     </button>
 
-      <button class="pageindic">
+      <button class="pageindic" onclick="currentSlide(2)">
         2
       </button>
 
-      <button class="pageindic">
+      <button class="pageindic" onclick="currentSlide(3)">
         3
       </button>
     </section>
@@ -48,7 +48,7 @@
     <!-- This is the section where the info is displayed -->
     <section class="infoCards">
       <!-- The Launch Vehicle -->
-      <article class="techSlide" id="techSlide1">
+      <article class="techSlide  myslide" id="techSlide1">
         <header class="infoHeading">
           <h6 class="headText">THE TERMINOLOGY</h6>
           <p class="techName" id="vehName">LAUNCH VEHICLE</p>
@@ -63,7 +63,7 @@
 
       <!-- The Spaceport -->
 
-      <article class="techSlide" id="techSlide2">
+      <article class="techSlide  myslide" id="techSlide2">
         <header class="infoHeading">
           <h6 class="headText">THE TERMINOLOGY</h6>
           <p class="techName" id="spaceportName">SPACEPORT</p>
@@ -76,7 +76,7 @@
       </article>
 
       <!-- The Space Capsule -->
-      <article class="techSlide" id="techSlide3">
+      <article class="techSlide  myslide" id="techSlide3">
         <header class="infoHeading">
           <h6 class="headText">THE TERMINOLOGY</h6>
           <p class="techName" id="capsuleName">SPACE CAPSULE</p>
@@ -94,23 +94,23 @@
     <!-- This is the pictures slide section -->
 
     <section class="techies">
-      <picture class="techSlide" id="launchImg">
+      <picture class="techSlide  myslide2" id="launchImg">
         <source srcset="/assets/technology/image-launch-vehicle-portrait.jpg" type="image/jpg"/>
         <img src="/assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle"/>
       </picture>
 
-      <picture class="techSlide" id="spaceportImg">
+      <picture class="techSlide  myslide2" id="spaceportImg">
         <source srcset="/assets/technology/image-spaceport-portrait.jpg" type="image/jpg"/>
         <img src="/assets/technology/image-spaceport-landscape.jpg" alt="spaceport"/>
       </picture>
 
-      <picture class="techSlide" id="capsuleImg">
+      <picture class="techSlide  myslide2" id="capsuleImg">
         <source srcset="/assets/technology/image-space-capsule-portrait.jpg" type="image/jpg"/>
         <img src="/assets/technology/image-space-capsule-landscape.jpg" alt="space capsule"/>
       </picture>
     </section>
 
   </main>
-
+  <script src="/dist/JS/slide.js"></script>
 </body>
 </html>

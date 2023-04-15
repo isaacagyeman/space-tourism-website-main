@@ -192,6 +192,7 @@ align-items: center;
 #destHead{
 text-align: center;
 }
+
 .pictureSide{
 width: 80%;
 }
@@ -200,17 +201,11 @@ padding: 5em;
 }
 
 .spacePlanet{
-/* display: none; */
-padding-top: 1.7em;
+padding-top: 2.5em;
 padding-left: 1.3em;
 padding-right:1.3em ;
 }
-/* #moonImg{
-display: block;
-padding-top: 1.7em;
-padding-left: 1.3em;
-padding-right: 1.3em;
-} */
+
 .tablist{
     padding-left: 1em;
 }
@@ -234,6 +229,7 @@ border-right: none;
 }
 .destination-info{
 padding: .5em;
+
 }
 .destDesc{
 padding-top: 1em;
@@ -242,10 +238,6 @@ line-height: 1.5em;
 color: var(--navbackground);
 }
 
-/* This is hidden styling would later affect all the cards in the javascript */
-/* #marsTab, #europaTab,#titanTab{
-display: none;
-} */
 .destName{
 font-size: var(--heading2font);
 }
@@ -287,17 +279,11 @@ padding-bottom: .5em;
 #crewWork1{
 line-height: 1.3em;
 }
-#specialistTab,#pilotTab,#flightTab{
-display: none;
-}
 
 .crewInfo{
 padding: 6.5em;
 }
 
-#markImg, #victorImg, #anoushehImg{
-display: none;
-}
 .pageIndicators{
 width: fit-content;
 margin-left: 6.5em;
@@ -361,9 +347,6 @@ width: max-content;
 .techies picture{
 width: 50%;
 }
-#spaceportImg, #capsuleImg{
-display: none;
-}
 
 .headText{
 color: var(--grayishBlue);
@@ -390,8 +373,4 @@ line-height: 2em;
 #techInfo3{
 width: 86.7%;
 line-height: 2em;
-}
-
-#techSlide2,#techSlide3{
-display: none;
 }

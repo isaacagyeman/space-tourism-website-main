@@ -1,12 +1,12 @@
-var imgSlides = document.getElementsByClassName('spacePlanet');
-var destInfo = document.getElementsByClassName('destination-info');
+var imgSlides = document.getElementsByClassName('myslide');
+var destInfo = document.getElementsByClassName('myslide2');
 
 let initialIndex = 1;
 
 Showslide(initialIndex);
 
 function currentSlide(m){
-Showslide(initialIndex += m);
+Showslide(initialIndex = m);
 }
 
 function Showslide(n){
