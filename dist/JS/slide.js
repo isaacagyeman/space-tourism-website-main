@@ -1,5 +1,6 @@
 var imgSlides = document.getElementsByClassName('myslide');
 var destInfo = document.getElementsByClassName('myslide2');
+var navTab = document.querySelectorAll('.navTab')
 
 let initialIndex = 1;
 
@@ -24,4 +25,11 @@ function Showslide(n){
  imgSlides[initialIndex - 1].style.display = 'block'
  destInfo[initialIndex - 1].style.display = 'block'
 }
+
+// navTab.forEach((btn)=>{
+//     btn.addEventListener("click",(e)=>{
+//         navTab.forEach(f=>f.classList.remove('active'));
+//         e.target.classList.toggle("active");
+//     })
+// })
 
