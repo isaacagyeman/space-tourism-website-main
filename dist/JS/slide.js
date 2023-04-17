@@ -1,6 +1,6 @@
 var imgSlides = document.getElementsByClassName('myslide');
 var destInfo = document.getElementsByClassName('myslide2');
-var navTab = document.querySelectorAll('.navTab')
+var destTab = document.querySelectorAll('.destTab')
 
 let initialIndex = 1;
 
@@ -26,10 +26,10 @@ function Showslide(n){
  destInfo[initialIndex - 1].style.display = 'block'
 }
 
-// navTab.forEach((btn)=>{
-//     btn.addEventListener("click",(e)=>{
-//         navTab.forEach(f=>f.classList.remove('active'));
-//         e.target.classList.toggle("active");
-//     })
-// })
+destTab.forEach((btn)=>{
+    btn.addEventListener("click",(e)=>{
+        destTab.forEach(f=>f.classList.remove('active'));
+        e.target.classList.toggle("active");
+    })
+})
 
