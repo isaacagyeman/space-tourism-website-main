@@ -438,8 +438,12 @@ hr{
 nav span{
 display: none;
 }
-.mainHome, .mainDest{
+.mainHome, .mainDest,.mainCrew{
 display: block;
+}
+.mainTech{
+display: block;
+/* flex-direction: row; */
 }
 .leftSide, .rightSide{
 margin: auto;
