@@ -439,7 +439,8 @@ nav span{
 display: none;
 }
 .mainHome, .mainDest,.mainCrew{
-display: block;
+/* display: block; */
+flex-direction: column;
 }
 .mainTech{
 display: block;
@@ -458,5 +459,40 @@ width: 100%;
 /*********************
 MEDIA QUERY FOR THE DESTINATION FOR TABLETS
 **********************/
+.infoSide{
+padding: 2em;
+/* border: solid; */
+/* margin: auto; */
+}
+.pictureSide{
+    margin: auto;
+}
+/************************
+MEDIA QUERY FOR THE CREW FOR TABLETS
+*************************/
+.mainCrew{
+/* align-content: center; */
+/* border: solid; */
+}
+.crewInfo{
+border: solid;
+padding: 0em;
+/* margin: auto; */
+}
 
+.pageIndicators{
+margin: auto;
+/* border: solid; */
+}
+.rightContent{
+width: 100%;
+padding: 1em;
+/* border: solid maroon; */
+margin: auto;
+}
+.leftContent{
+width: 100%;
+/* border: solid chartreuse; */
+margin: auto;
+}
 }
