@@ -64,13 +64,13 @@ Crew
 background-image: url('/assets/crew/background-crew-desktop.jpg');
 }
 
+
 /***********
 Technology 
 ************/
 .techBody{
 background-image: url('/assets/technology/background-technology-desktop.jpg');
 }
-
 
 
 /**************************************
@@ -83,11 +83,11 @@ justify-content: space-between;
 padding-top: 1.5em;
 }
 .active{
-    padding-bottom: 2em;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: 3px solid var(--white);
+padding-bottom: 2em;
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom: 3px solid var(--white);
 }
 
 .logo{
@@ -168,11 +168,11 @@ color: var(--blueblack);
 } 
 
 .tablist a:hover{
-    border: solid hsl(231,77%,90%);
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    color: var(--grayishBlue2);
+border: solid hsl(231,77%,90%);
+border-left: none;
+border-top: none;
+border-right: none;
+color: var(--grayishBlue2);
 }
 
 /* #btnExplore{
@@ -236,7 +236,7 @@ padding-right:1.3em ;
 }
 
 .tablist{
-    padding-left: 1em;
+padding-left: 1em;
 }
 .tablist a{
 text-decoration: none;
@@ -290,12 +290,12 @@ padding: 2em;
 width: 50%;
 }
 .leftContent h1{
-    margin-top: 1.5em;
-    margin-left: 4.3em;
-    color: var(--grayishBlue2);
+margin-top: 1.5em;
+margin-left: 4.3em;
+color: var(--grayishBlue2);
 }
 .leftContent span{
-    margin-right: .7em;
+margin-right: .7em;
 }
 .crewTitle{
 font-size: 24px;
@@ -402,4 +402,57 @@ line-height: 2em;
 #techInfo3{
 width: 86.7%;
 line-height: 2em;
+}
+
+/* The tablet View of the site */
+@media screen and (max-width: 768px){
+
+/*******************
+HOME PAGE MEDIA QUERY FOR TABLETS
+*******************/
+
+.homeBody{
+background-image: url('/assets/home/background-home-tablet.jpg');
+}
+.destination{
+background-image: url('/assets/destination/background-destination-tablet.jpg');
+}
+.crewBody{
+background-image: url('/assets/crew/background-crew-tablet.jpg');
+}
+.techBody{
+background-image: url('/assets/technology/background-technology-tablet.jpg');
+}
+.navBar{
+margin-top: 0em;
+padding-top: 0em;
+}
+nav{
+padding-left: .5em;
+width: 65%;
+}
+hr{
+    display: none;
+}
+
+nav span{
+display: none;
+}
+.mainHome, .mainDest{
+display: block;
+}
+.leftSide, .rightSide{
+margin: auto;
+}
+.rightSide{
+margin-top: 5.5em;
+}
+#spaceInfo{
+width: 100%;
+}
+
+/*********************
+MEDIA QUERY FOR THE DESTINATION FOR TABLETS
+**********************/
+
 }
