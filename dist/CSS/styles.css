@@ -26,6 +26,15 @@
     --subheading2: 14px;
     --navText: 16px;
 
+    --fs-900:clamp(5rem, 8vw + 1rem, 9.375rem );
+    --fs-800: 3.5rem;
+    --fs-700: 1.5rem;
+    --fs-600: 1rem;
+    --fs-500: 1rem;
+    --fs-400: 0.9735rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+
     /*************
     character spacing
     **************/
@@ -62,6 +71,8 @@ Technology
 background-image: url('/assets/technology/background-technology-desktop.jpg');
 }
 
+
+
 /**************************************
 This is the style of the homepage 
 ***************************************/
@@ -72,7 +83,6 @@ justify-content: space-between;
 padding-top: 1.5em;
 }
 .active{
-    border: solid;
     padding-bottom: 2em;
     border-left: none;
     border-right: none;
@@ -105,8 +115,9 @@ margin-left: 2em;
 }
 nav a{
 text-decoration: none;
-color: var(--grayishBlue2);
+color: var(--grayishBlue);
 }
+
 nav span{
 color: var(--white);
 margin-left: .6em;
@@ -155,6 +166,15 @@ margin-top: 12.8em;
 text-decoration: none;
 color: var(--blueblack);
 } 
+
+.tablist a:hover{
+    border: solid hsl(231,77%,90%);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: var(--grayishBlue2);
+}
+
 /* #btnExplore{
     font-size: 2rem;
     position: relative;
