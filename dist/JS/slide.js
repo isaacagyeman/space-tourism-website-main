@@ -1,7 +1,9 @@
 var imgSlides = document.getElementsByClassName('myslide');
 var destInfo = document.getElementsByClassName('myslide2');
-var destTab = document.querySelectorAll('.destTab')
-
+var destTab = document.querySelectorAll('.destTab');
+var menuIcon = document.querySelector('#menuIcon');
+var closeIcon = document.querySelector('#closemenu');
+var menu = document.querySelector('.menu')
 let initialIndex = 1;
 
 Showslide(initialIndex);
@@ -33,3 +35,13 @@ destTab.forEach((btn)=>{
     })
 })
 
+menuIcon.addEventListener('click',()=>{
+// prompt("you clicked the menu icon ")
+menu.style.display = 'block';
+menuIcon.style.display = 'none';
+});
+
+closeIcon.addEventListener('click',()=>{
+menu.style.display  = 'none';
+menuIcon.style.display = 'block'
+});
