@@ -472,8 +472,9 @@ MEDIA QUERY FOR THE CREW FOR TABLETS
 *************************/
 .mainCrew{
 /* align-content: center; */
-/* border: solid; */
+/* border: solid yellow; */
 }
+
 .crewInfo{
 border: solid;
 padding: 0em;
@@ -495,4 +496,40 @@ width: 100%;
 /* border: solid chartreuse; */
 margin: auto;
 }
+/******************************
+MEDIA QUERY FOR THE TECHNOLOGY PAGE FOR TABLETS
+*******************************/
+.mainTech{
+/* border: solid mediumseagreen; */
+display: flex;
+flex-direction: column-reverse;
+}
+#techMainHead{
+top: 0em;
+margin-left: 0em;
+}
+.leftreloaded{
+flex-direction: column;
+}
+.techies{
+/* border: solid saddlebrown; */
+width: 100%;
+}
+.Indicators{
+/* border: solid salmon; */
+display: flex;
+}
+.infoCards{
+/* border: solid maroon; */
+width: 100%;
+}
+.techies picture{
+/* border: solid mediumblue; */
+width: 100%;
+}
+#techInfo1,#techInfo2,#techInfo3{
+width: 100%;
+}
+
+
 }
