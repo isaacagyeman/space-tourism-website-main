@@ -400,6 +400,7 @@ letter-spacing: var(--lnsbh);
 /* border: solid blue; */
 margin-left: 2.5em;
 color: var(--white);
+font-family: 'BarlowCondensed';
 }
 #crewHead span{
 margin-right: .5em;
@@ -459,21 +460,28 @@ This is the style of the technology page
 **************************************/
 #techMainHead{
 position: relative;
-top: 2em;
+top: .5em;
 right: 0;
 left: 0;
 bottom: 0;
-margin-left: 6.5em;
+margin-left: 5.7em;
+font-family: 'BarlowCondensed';
+letter-spacing: var(--lnsbh);
+color: var(--white);
+}
+#techMainHead span{
+font-family: 'BarlowCondensed';
+color: var(--grayishBlue);
 }
 .mainTech{
 display: flex;
 align-items: center;
 justify-content: space-between;
+/* border: solid blue; */
 }
 .leftreloaded{
 display: flex;
 justify-content: space-between;
-
 }
 .Indicators{
 margin: auto;
@@ -484,9 +492,21 @@ height: 60px;
 width: 60px;
 border-radius: 100%;
 border: none;
-background: white;
+background: var(--blueblack);
 display: block;
 margin-bottom: 1.5em;
+border: solid var(--grayishBlue) 1px;
+color: var(--grayishBlue);
+font-size: var(--fs-400);
+font-family: 'BarlowCondensed';
+}
+.pageindic:hover{
+cursor: pointer;
+border: solid var(--white) 1px;
+}
+.active3{
+background: var(--white);
+color: var(--blueblack);
 }
 
 #pageNum{
@@ -496,24 +516,29 @@ margin-right: .7em;
 .infoCards{
 width: 60%;
 }
-.techies{
+/* .techies{
 width: max-content;
-}
+border: solid red;
+} */
 .techies picture{
 width: 50%;
 }
 
 .headText{
 color: var(--grayishBlue);
-margin: .5em;
+font-family: 'BarlowCondensed';
+font-size: var(--fs-400);
+/* margin: .5em; */
 }
 
 .techName{
-/* font-size: var(--heading4font); */
-color: var(--grayishBlue);
+font-size: var(--fs-700);
+color: var(--white);
+font-family: 'Bellefair';
+letter-spacing: var(--lnsbh);
 }
 .techInfo{
-margin-top: 1em;
+/* margin-top: 1em; */
 color: var(--grayishBlue);
 }
 

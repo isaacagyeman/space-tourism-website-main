@@ -1,6 +1,7 @@
 var imgSlides = document.getElementsByClassName('myslide');
 var destInfo = document.getElementsByClassName('myslide2');
 var destTab = document.querySelectorAll('.destTab');
+var techTab = document.querySelectorAll('.techTab');
 var menuIcon = document.querySelector('#menuIcon');
 var closeIcon = document.querySelector('#closemenu');
 var menu = document.querySelector('.menu')
@@ -33,6 +34,12 @@ destTab.forEach((btn)=>{
         destTab.forEach(f=>f.classList.remove('active'));
         e.target.classList.toggle("active");
     })
+})
+techTab.forEach((roundbtn)=>{
+   roundbtn.addEventListener("click",(e)=>{
+       techTab.forEach(f=>f.classList.remove('active3'));
+       e.target.classList.toggle("active3");
+   })
 })
 
 menuIcon.addEventListener('click',()=>{
