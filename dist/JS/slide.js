@@ -2,7 +2,7 @@ var imgSlides = document.getElementsByClassName('myslide');
 var destInfo = document.getElementsByClassName('myslide2');
 var destTab = document.querySelectorAll('.destTab');
 var techTab = document.querySelectorAll('.techTab');
-var menuIcon = document.querySelector('#menuIcon');
+var menuBtn = document.querySelector('#menuIcon');
 var closeIcon = document.querySelector('#closemenu');
 var menu = document.querySelector('.menu')
 let initialIndex = 1;
@@ -42,13 +42,13 @@ techTab.forEach((roundbtn)=>{
    })
 })
 
-menuIcon.addEventListener('click',()=>{
+menuBtn.addEventListener('click',function showMenu(){
 // prompt("you clicked the menu icon ")
 menu.style.display = 'block';
-menuIcon.style.display = 'none';
+menuBtn.style.display = 'none';
 });
 
 closeIcon.addEventListener('click',()=>{
 menu.style.display  = 'none';
-menuIcon.style.display = 'block'
+menuBtn.style.display = 'block'
 });
