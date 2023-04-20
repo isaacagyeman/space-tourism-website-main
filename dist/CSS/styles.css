@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'BarlowCondensed';
+    src: url('/assets/fonts/BarlowCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bellefair';
+    src: url('/assets/fonts/Bellefair-Regular.ttf');
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,14 +25,14 @@
     /*************** 
     font sizes
     ***************/
-    --headingfont1: 150px;
+    /* --headingfont1: 150px;
     --heading2font: 100px;
     --heading3font: 56px;
     --heading4font: 32px;
     --heading5font: 28px;
     --subheading1: 28px;
     --subheading2: 14px;
-    --navText: 16px;
+    --navText: 16px; */
 
     --fs-900:clamp(5rem, 8vw + 1rem, 9.375rem );
     --fs-800: 3.5rem;
@@ -35,6 +43,13 @@
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
+    /**************
+    Font Families
+    ***************/
+    /* --ff-serif: "Bellefair";
+    --ff-sans-cond: "Barlow Condensed"; */
+    
+
     /*************
     character spacing
     **************/
@@ -43,11 +58,50 @@
     --lnNav: 2.7px;
 
 }
+@media (min-width: 560px){
+:root{
+--fs-800: 5rem;
+--fs-700: 2.5rem;
+--fs-600: 1.5rem;
+--fs-500: 1.25rem;
+--fs-400: 1rem;    
+}
+}
+
+@media (min-width: 768px){
+:root{
+--fs-800: 6.25rem;
+--fs--700: 3.5rem;
+--fs-600: 2rem;
+--fs-500: 1.75rem;
+--fs-400: 1.125rem;
+}
+}
+
+body{
+font-family: 'Barlowcondensed';
+font-size: var(--fs-400);
+color: hsl(var(--white));
+background-color: hsl(var(--blueblack));
+line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+font-weight: 400;
+}
+
+
 /****************
 Home
 *****************/
 .homeBody{
 background-image: url('/assets/home/background-home-desktop.jpg');
+/* font-family: 'Barlowcondensed' */
 }
 
 /**************** 
@@ -77,7 +131,7 @@ background-image: url('/assets/technology/background-technology-desktop.jpg');
 This is the style of the homepage 
 ***************************************/
 .navBar{
-margin-top: .8em;
+margin-top: .3em;
 display: flex;
 justify-content: space-between;
 padding-top: 1.5em;
@@ -124,7 +178,8 @@ nav span{
 color: var(--white);
 margin-left: .6em;
 padding-right: .6em;
-font-weight: bolder;
+font-weight: 600
+/* font-weight: bolder; */
 }
 
 .mainHome{
@@ -141,59 +196,77 @@ h5 span{
 color: white;
 display: block;
 width: fit-content;
-/* font-size: 150px; */
+font-family: 'Bellefair';
+font-size: var(--fs-900);
 margin-top: .1em;
 }
 #spaceInfo{
-width: 68%;
+width: 55%;
+/* border: solid; */
+/* text-align: center; */
 /* font-size: 19.5px; */
-margin-top: 1em;
+/* margin-top: 1em; */
 }
 #spaceInfo p, h5{
 color: var(--grayishBlue);
+/* border: solid red; */
 }
 h5{
-/* font-size: var(--heading5font); */
+font-size: var(--fs--600);
 letter-spacing: var(--lnsp5);
 }
 
-.rightSide{
+/* .rightSide{
 width: fit-content;
-padding: 5.5em 4.5em;
+padding: 3.5em 2.5em;
 background: white;
 border-radius: 50%;
-margin-top: 12.8em;
-} 
-#btnExplore{
+margin-top: 10.8em;
+}  */
+/* #btnExplore{
+font-family: 'Bellefair';
+font-size: var(--fs--900);
 text-decoration: none;
+text-transform: uppercase;
 color: var(--blueblack);
-} 
+}  */
 
-.tablist a:hover{
+.tablist a:hover
+{
 border: solid hsl(231,77%,90%);
 border-left: none;
 border-top: none;
 border-right: none;
 color: var(--grayishBlue2);
 }
+.navTab:hover{
+border-left: none;
+border-top: none;
+border-bottom: solid;
+padding-bottom: 2rem;
+border-right: none;
+border-color: hsl(var(--grayishBlue));
+}
 #closemenu, #menuIcon{
 display: none;
 }
 
-/* #btnExplore{
-    font-size: 2rem;
+#btnExplore{
+    font-size: var(--fs-700);
     position: relative;
     z-index: 1;
     display: inline-grid;
     place-items: center;
-    padding: 0 2em;
+    padding: 0 1em;
     border-radius: 50%;
     aspect-ratio: 1;
     text-decoration: none;
     background: hsl(0,0%,100%);
-} */
+    color: hsl(var(--blueblack));
+    margin-top: 5em;
+}
 
-/* #btnExplore::after {
+#btnExplore::after {
     content: '';
     position: absolute;
     z-index: -1;
@@ -203,14 +276,14 @@ display: none;
     border-radius: 50%;
     opacity: 0;
     transition: opacity 500ms linear, transform 750ms ease-in-out;
-} */
+}
 
-/* #btnExplore:hover::after,
+#btnExplore:hover::after,
 #btnExplore:focus::after {
-    opacity: 1;
+    opacity: .5;
     transform: scale(1.5);
 
-} */
+}
 
 
 /***********************************************
@@ -219,25 +292,43 @@ This is the styling of the destination page here
 
 .mainDest{
 display: flex;
-padding-left: 2.5em;
+padding-left: 3em;
 padding-right: 2em;
 align-items: center;
+/* border: solid blue; */
+}
+#destHead span{
+margin-right: .5em;
+color: var(--grayishBlue);
 }
 #destHead{
-text-align: center;
+margin-left: 1.5em;
+font-size: var(--fs-600);
+color: var(--white);
+/* text-align: center; */
+/* border: solid blue; */
+}
+.destName{
+/* text-align: center; */
+font-family: 'Bellefair';
+font-size: var(--fs-800);
+color: var(--white);
+
 }
 
-.pictureSide{
+/* .pictureSide{
 width: 80%;
-}
+} */
 .infoSide{
-padding: 5em;
+padding-left: 5em;
 }
+
 
 .spacePlanet{
-padding-top: 2.5em;
+padding-top: 1em;
 padding-left: 1.3em;
-padding-right:1.3em ;
+/* padding-right:1.3em ; */
+/* border: solid red; */
 }
 
 .tablist{
@@ -253,7 +344,7 @@ color: var(--grayishBlue2);
 display: flex;
 padding: 1em 0em;
 justify-content: space-between;
-width: 70%;
+width: 55%;
 margin-top: 1.5em;
 border: solid var(--navbackground) 2px;
 border-left: none;
@@ -266,18 +357,26 @@ padding: .5em;
 
 }
 .destDesc{
-padding-top: 1em;
+width: 53%;
+/* padding-top: 1em; */
 margin-left: .5em;
 line-height: 1.5em;
-color: var(--navbackground);
+color: var(--grayishBlue);
+/* border: solid chartreuse; */
+}
+.distInfo1 h3{
+font-family: 'BarlowCondensed';
+color: var(--grayishBlue);
+font-size: var(--fs-300);
+}
+.distInfo1 p{
+font-family: 'Bellefair';
+color: var(--white);
+font-size: var(--fs-600);
 }
 
-.destName{
-/* font-size: var(--heading2font); */
-}
-img, picture{
-display: block;
-}
+
+
 
 /********************************
 This is the style of the crew page 
@@ -288,8 +387,10 @@ justify-content: space-evenly;
 }
 .rightContent{
 width: 50%;
-padding: 2em;
+/* padding: 1em; */
+/* border: solid red; */
 }
+
 
 .leftContent{
 width: 50%;
