@@ -376,28 +376,11 @@ This is the style of the crew page
 display: flex;
 justify-content: space-evenly;
 }
-.rightContent{
-/* width: 50%; */
-/* border: solid red; */
-/* padding: 1em; */
-/* border: solid red; */
-}
 
-
-.leftContent{
-/* width: 50%; */
-/* border: solid blue; */
-}
-/* .leftContent h1{
-margin-top: 1.5em;
-margin-left: 4.3em;
-color: var(--grayishBlue2);
-} */
 #crewHead{
 width: fit-content;
 font-size: var(--fs-600);
 letter-spacing: var(--lnsbh);
-/* border: solid blue; */
 margin-left: 2.5em;
 color: var(--white);
 font-family: 'BarlowCondensed';
@@ -427,8 +410,6 @@ letter-spacing: var(--lnsbh);
 padding-bottom: .5em;
 }
 #crewWork1{
-/* line-height: 1.3em; */
-/* border: solid red; */
 width: 48%;
 color: var(--grayishBlue);
 }
@@ -606,30 +587,82 @@ margin-top: 5.5em;
 width: 100%;
 }
 
+/*
+MEDIA QUERY FOR THE HOMEPAGE FOR TABLETS
+*/
+#btnExplore{
+margin-top: 3em;
+}
 /*********************
 MEDIA QUERY FOR THE DESTINATION FOR TABLETS
 **********************/
 .infoSide{
 padding: 2em;
-/* border: solid; */
+/* border: solid red; */
 /* margin: auto; */
 }
-.pictureSide{
-    margin: auto;
+.destName{
+text-align: center;
 }
+.tablist{
+/* border: solid pink; */
+margin: auto;
+width: fit-content;
+}
+.destName{
+font-size: var(--fs-800);
+}
+.distanceInfo{
+/* border: solid blue; */
+margin: auto;
+}
+.destDesc{
+/* border: solid; */
+width: 80%;
+text-align: center;
+margin: auto;
+margin-bottom: 1em;
+}
+
+/* .pictureSide{
+    margin: auto;
+} */
 /************************
 MEDIA QUERY FOR THE CREW FOR TABLETS
 *************************/
 
 .crewInfo{
-border: solid;
+/* border: solid; */
 padding: 0em;
 /* margin: auto; */
+}
+.crewTitle{
+margin: auto;
+width: fit-content;
+/* border: solid  blue; */
+}
+.crewName{
+/* border: solid red; */
+width: max-content;
+margin: auto;
+padding-bottom: 0em;
+}
+#crewWork1{
+/* border: solid chartreuse; */
+margin: auto;
+width: 52%;
+text-align: center;
 }
 
 .pageIndicators{
 margin: auto;
 /* border: solid; */
+padding-top: .7em;
+}
+.Imgslide{
+max-width: 100%;
+height: auto;
+/* border: solid blue; */
 }
 .rightContent{
 width: 100%;
@@ -736,8 +769,8 @@ border: solid;
 } */
 .pictureSide{
 /* border: solid purple; */
-width: 100%;
-max-width: 100%;
+/* width: 100%; */
+/* max-width: 100%; */
 /* display: none; */
 }
 .infoSide{
