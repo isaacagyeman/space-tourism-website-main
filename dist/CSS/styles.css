@@ -34,13 +34,6 @@
     --fs-300: 1rem;
     --fs-200: 0.875rem;
 
-    /**************
-    Font Families
-    ***************/
-    /* --ff-serif: "Bellefair";
-    --ff-sans-cond: "Barlow Condensed"; */
-    
-
     /*************
     character spacing
     **************/
@@ -92,7 +85,6 @@ Home
 *****************/
 .homeBody{
 background-image: url('/assets/home/background-home-desktop.jpg');
-/* font-family: 'Barlowcondensed' */
 }
 
 /**************** 
@@ -126,7 +118,6 @@ margin-top: .3em;
 display: flex;
 justify-content: space-between;
 padding-top: 1.5em;
-/* border: solid yellow; */
 }
 
 .active{
@@ -170,7 +161,6 @@ color: var(--white);
 margin-left: .6em;
 padding-right: .6em;
 font-weight: 600
-/* font-weight: bolder; */
 }
 
 .mainHome{
@@ -193,34 +183,14 @@ margin-top: .1em;
 }
 #spaceInfo{
 width: 55%;
-/* border: solid; */
-/* text-align: center; */
-/* font-size: 19.5px; */
-/* margin-top: 1em; */
 }
 #spaceInfo p, h5{
 color: var(--grayishBlue);
-/* border: solid red; */
 }
 h5{
 font-size: var(--fs--600);
 letter-spacing: var(--lnsp5);
 }
-
-/* .rightSide{
-width: fit-content;
-padding: 3.5em 2.5em;
-background: white;
-border-radius: 50%;
-margin-top: 10.8em;
-}  */
-/* #btnExplore{
-font-family: 'Bellefair';
-font-size: var(--fs--900);
-text-decoration: none;
-text-transform: uppercase;
-color: var(--blueblack);
-}  */
 
 .tablist a:hover
 {
@@ -285,7 +255,6 @@ display: flex;
 padding-left: 3em;
 padding-right: 2em;
 align-items: center;
-/* border: solid blue; */
 }
 #destHead span{
 margin-right: .5em;
@@ -296,30 +265,22 @@ margin-left: 1.5em;
 font-size: var(--fs-600);
 color: var(--white);
 letter-spacing: var(--lnsbh);
-/* text-align: center; */
-/* border: solid blue; */
 }
 .destName{
-/* text-align: center; */
 font-family: 'Bellefair';
 font-size: var(--fs-800);
 color: var(--white);
 
 }
 
-/* .pictureSide{
-width: 80%;
-} */
 .infoSide{
 padding-left: 5em;
 }
 
-
 .spacePlanet{
 padding-top: 1em;
 padding-left: 1.3em;
-/* padding-right:1.3em ; */
-/* border: solid red; */
+
 }
 
 .tablist{
@@ -349,11 +310,9 @@ padding: .5em;
 }
 .destDesc{
 width: 53%;
-/* padding-top: 1em; */
 margin-left: .5em;
 line-height: 1.5em;
 color: var(--grayishBlue);
-/* border: solid chartreuse; */
 }
 .distInfo1 h3{
 font-family: 'BarlowCondensed';
@@ -365,9 +324,6 @@ font-family: 'Bellefair';
 color: var(--white);
 font-size: var(--fs-600);
 }
-
-
-
 
 /********************************
 This is the style of the crew page 
@@ -458,7 +414,6 @@ color: var(--grayishBlue);
 display: flex;
 align-items: center;
 justify-content: space-between;
-/* border: solid blue; */
 }
 .leftreloaded{
 display: flex;
@@ -497,10 +452,7 @@ margin-right: .7em;
 .infoCards{
 width: 60%;
 }
-/* .techies{
-width: max-content;
-border: solid red;
-} */
+
 .techies picture{
 width: 50%;
 }
@@ -509,7 +461,7 @@ width: 50%;
 color: var(--grayishBlue);
 font-family: 'BarlowCondensed';
 font-size: var(--fs-400);
-/* margin: .5em; */
+
 }
 
 .techName{
@@ -519,7 +471,6 @@ font-family: 'Bellefair';
 letter-spacing: var(--lnsbh);
 }
 .techInfo{
-/* margin-top: 1em; */
 color: var(--grayishBlue);
 }
 
@@ -570,12 +521,10 @@ nav span{
 display: none;
 }
 .mainHome, .mainDest,.mainCrew{
-/* display: block; */
 flex-direction: column;
 }
 .mainTech{
 display: block;
-/* flex-direction: row; */
 }
 .leftSide, .rightSide{
 margin: auto;
@@ -591,21 +540,24 @@ width: 100%;
 MEDIA QUERY FOR THE HOMEPAGE FOR TABLETS
 */
 #btnExplore{
-margin-top: 3em;
+margin-top: .6em;
 }
+#spaceInfo{
+margin: auto;
+/* border: solid blue; */
+text-align: center;
+}
+
 /*********************
 MEDIA QUERY FOR THE DESTINATION FOR TABLETS
 **********************/
 .infoSide{
 padding: 2em;
-/* border: solid red; */
-/* margin: auto; */
 }
 .destName{
 text-align: center;
 }
 .tablist{
-/* border: solid pink; */
 margin: auto;
 width: fit-content;
 }
@@ -613,42 +565,32 @@ width: fit-content;
 font-size: var(--fs-800);
 }
 .distanceInfo{
-/* border: solid blue; */
 margin: auto;
 }
 .destDesc{
-/* border: solid; */
 width: 80%;
 text-align: center;
 margin: auto;
 margin-bottom: 1em;
 }
 
-/* .pictureSide{
-    margin: auto;
-} */
 /************************
 MEDIA QUERY FOR THE CREW FOR TABLETS
 *************************/
 
 .crewInfo{
-/* border: solid; */
 padding: 0em;
-/* margin: auto; */
 }
 .crewTitle{
 margin: auto;
 width: fit-content;
-/* border: solid  blue; */
 }
 .crewName{
-/* border: solid red; */
 width: max-content;
 margin: auto;
 padding-bottom: 0em;
 }
 #crewWork1{
-/* border: solid chartreuse; */
 margin: auto;
 width: 52%;
 text-align: center;
@@ -656,58 +598,64 @@ text-align: center;
 
 .pageIndicators{
 margin: auto;
-/* border: solid; */
 padding-top: .7em;
 }
 .Imgslide{
 max-width: 100%;
 height: auto;
-/* border: solid blue; */
 }
 .rightContent{
 width: 100%;
 padding: 1em;
-/* border: solid maroon; */
 margin: auto;
 }
 .leftContent{
 width: 100%;
-/* border: solid chartreuse; */
 margin: auto;
 }
 /******************************
 MEDIA QUERY FOR THE TECHNOLOGY PAGE FOR TABLETS
 *******************************/
 .mainTech{
-/* border: solid mediumseagreen; */
 display: flex;
 flex-direction: column-reverse;
 }
 #techMainHead{
 top: 0em;
-margin-left: 0em;
+margin-left: 1em;
 }
 .leftreloaded{
 flex-direction: column;
 }
-.techies{
-/* border: solid saddlebrown; */
-width: 100%;
+.techImgLand{
+max-width: 100%;
+height: auto;
 }
 .Indicators{
-/* border: solid salmon; */
+padding: 0em;
 display: flex;
 }
 .infoCards{
-/* border: solid maroon; */
 width: 100%;
 }
 .techies picture{
-/* border: solid mediumblue; */
 width: 100%;
 }
 #techInfo1,#techInfo2,#techInfo3{
-width: 100%;
+width: 60%;
+margin: auto;
+text-align: center;
+}
+.pageindic{
+margin-right: 1em;
+}
+.headText{
+width: fit-content;
+margin: auto;
+}
+.techName{
+width: fit-content;
+margin: auto;
 }
 
 }
