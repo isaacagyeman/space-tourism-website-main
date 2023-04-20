@@ -153,6 +153,7 @@ margin-left: 2em;
 }
 nav a{
 text-decoration: none;
+letter-spacing: var(--lnNav);
 color: var(--grayishBlue);
 }
 
@@ -663,7 +664,6 @@ margin: auto;
 @media screen and (max-width: 560px)  {
 .homeBody{
 background-image: url('/assets/home/background-home-mobile.jpg');
-/* background-position: center center; */
 }
 .destination{
 background-image: url('/assets/destination/background-destination-mobile.jpg');
@@ -677,8 +677,6 @@ background-image: url('/assets/technology/background-technology-mobile.jpg');
 
 #menuIcon{
 display: block;
-/* width: 1.5em; */
-/* height: .8em; */
 padding: 2em;
 }
 #closemenu{
@@ -687,71 +685,56 @@ float: right;
 }
 nav{
 display: none;
-/* border: solid yellow; */
-/* padding-left: 2em; */
+background: var(--blueblack);
 z-index: 1;
+padding-top: 4.5em;
+padding-right: 2.5em;
 position: absolute;
 top: 0em;
-/* left: 50%; */
 right: 0em;
 height: 100%;
 opacity: 100%;
 }
-/* .navBar{
-border: solid;
-margin-top: 0em;
-} */
+.active{
+padding-bottom: 0em;
+border-bottom: none;
+}
+nav span{
+display: inline;
+}
 nav li{
 display: block;
-/* padding-bottom: 0em; */
-/* margin-left: 1em; */
+padding: 1em;
 }
 
 .mainDest{
-/* border: solid yellow; */
 padding-left: 0em;
 padding-right: 0em;
 }
-/* #destHead{
-border: solid;
-} */
-.pictureSide{
-/* border: solid purple; */
-/* width: 100%; */
-/* max-width: 100%; */
-/* display: none; */
-}
+
+
 .infoSide{
-/* border: solid; */
 padding: 0em;
 }
 
 .spacePlanet, .Imgslide, .techImgLand{
-/* border: solid chartreuse; */
-/* padding-top: 1.5em; */
-/* padding-left: 0em; */
-/* padding-right: 0em; */
 max-width: 100%;
 height: auto;
 
 }
 .distanceInfo{
-/* border: solid sandybrown; */
 flex-direction: column;
 width: 100%;
 margin: auto;
 align-items: center;
-/* justify-content: space-between; */
 }
 .distInfo1 h3, .distInfo1 p{
 text-align: center;
 }
 .destination-info{
-/* border: solid brown; */
 padding: 1em;
 }
 .mainCrew{
-/* border: solid yellow; */
 flex-direction: column-reverse;
 }
 .leftContent{
@@ -759,34 +742,25 @@ display: flex;
 flex-direction: column-reverse;
 }
 .rightContent{
-/* border: solid brown; */
 padding: 0em;
 }
 
 .crewInfo{
-/* border: solid purple; */
 padding: 0em;
 }
 .pageIndicators{
-/* border: solid powderblue; */
 margin-left: 0em;
 margin: auto;
 }
 .techInfo{
-/* border: solid slateblue; */
 margin: auto;
 }
-/* #techInfo1{
-border: solid saddlebrown;
-} */
 
 .infoHeading{
 width: max-content;
-/* border: solid cyan; */
 margin: auto;
 }
 .pageindic{
-/* border: solid red; */
 margin-right: 1em;
 }
 
